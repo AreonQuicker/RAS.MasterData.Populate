@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PackageVersion>6.0.5</PackageVersion>
+        <Authors>Gideon (Entelect)</Authors>
+        <Description>RAS.MasterData.Populate</Description>
+        <PackageId>E.S.MasterData.Populate</PackageId>
+        <AssemblyName>RAS.MasterData.Populate</AssemblyName>
+        <RootNamespace>RAS.MasterData.Populate</RootNamespace>      
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="E.S.ApiClientHandler" Version="6.0.13" />
+      <PackageReference Include="RAS.MasterData" Version="1.0.37" />
+    </ItemGroup>  
+
+</Project>
